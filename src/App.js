@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Test</h1>
-      <h2>Counter {counter}</h2>
+      <h1>Super counter</h1>
+      <h2> {counter}</h2>
       <button onClick = {incrementer}>click here</button>
     </div>
   );
