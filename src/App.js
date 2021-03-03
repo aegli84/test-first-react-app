@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" className = "App-header">
       <h1>Super counter</h1>
       <h2> {counter}</h2>
       <button onClick = {incrementer}>click here</button>
